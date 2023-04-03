@@ -1,6 +1,6 @@
 @import "normalize1";
 @import "resets";
-
+@import "slider";
 
 $color-white: #FFFFFF;
 $color-grey2: #616161;
@@ -38,6 +38,7 @@ p{
     padding-top: 40px;
     &__nav-container{
         position: fixed;
+        z-index: 3;
         width: 100%;
         height: 45px;
         display: flex;

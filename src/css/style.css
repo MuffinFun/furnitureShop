@@ -361,6 +361,10 @@ table {
   border-spacing: 0;
 }
 
+.real-slider {
+  min-height: 553px;
+}
+
 @font-face {
   font-family: GilroyB;
   src: url(../font/gilroy-bold.ttf);
@@ -392,6 +396,7 @@ p {
 }
 .top-section__nav-container {
   position: fixed;
+  z-index: 3;
   width: 100%;
   height: 45px;
   display: flex;
