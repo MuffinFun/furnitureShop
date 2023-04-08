@@ -1,3 +1,14 @@
 .real-slider {
-  min-height: 553px;
+  margin-top: 121px;
+  min-height: 774px;
+  overflow: hidden;
+}
+.real-slider__wrapper {
+  width: 100%;
+  height: 553px;
+}
+.real-slider__slide {
+  width: 100% !important;
+  height: 100%;
+  background-color: black;
 }/*# sourceMappingURL=slider.css.map */

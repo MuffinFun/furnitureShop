@@ -1,10 +1,11 @@
 @import "normalize1";
 @import "resets";
-@import "slider";
+@import url('/src/css/slider.css');
 
 $color-white: #FFFFFF;
 $color-grey2: #616161;
-
+$color-lightred: #F9F1E7;
+$notwhitebutwhite: #FCF8F3;
 
 @font-face {
     font-family: GilroyB;
@@ -33,9 +34,11 @@ p{
 
 
 .top-section{
+    position: relative;
     min-height: 774px;
     max-width: 2866px;
     padding-top: 40px;
+    background-color: $notwhitebutwhite;
     &__nav-container{
         position: fixed;
         z-index: 3;
@@ -106,4 +109,12 @@ nav{
         justify-content: space-between;
         align-items: center;
     }
+}
+
+.red-square{
+    position: absolute;
+    background-color: $color-lightred;
+    width: 964px;
+    height: 714px;
+    top: 0;
 }

@@ -5,6 +5,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+@import url("/src/css/slider.css");
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -361,10 +362,6 @@ table {
   border-spacing: 0;
 }
 
-.real-slider {
-  min-height: 553px;
-}
-
 @font-face {
   font-family: GilroyB;
   src: url(../font/gilroy-bold.ttf);
@@ -390,9 +387,11 @@ p {
 }
 
 .top-section {
+  position: relative;
   min-height: 774px;
   max-width: 2866px;
   padding-top: 40px;
+  background-color: #FCF8F3;
 }
 .top-section__nav-container {
   position: fixed;
@@ -453,4 +452,12 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.red-square {
+  position: absolute;
+  background-color: #F9F1E7;
+  width: 964px;
+  height: 714px;
+  top: 0;
 }/*# sourceMappingURL=style.css.map */
