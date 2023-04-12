@@ -1,11 +1,10 @@
 @import "normalize1";
 @import "resets";
+@import 'variables';
 @import url('/src/css/slider.css');
-
-$color-white: #FFFFFF;
-$color-grey2: #616161;
-$color-lightred: #F9F1E7;
-$notwhitebutwhite: #FCF8F3;
+@import url('/src/css/variables.css');
+@import url('/src/css/buttons.css');
+@import url('/src/css/text.css');
 
 @font-face {
     font-family: GilroyB;
@@ -24,7 +23,7 @@ $notwhitebutwhite: #FCF8F3;
     src: url(../font/gilroy-regular.ttf);
 }
 
-h1{
+h1, h2, h3, h4, h5, h6, h7, h8, h9, h10, h11{
     font-family: GilroyB;
 }
 
@@ -84,6 +83,7 @@ nav{
         font-weight: 400;
         font-size: 14px;
         line-height: 150%;
+        outline: none;
     }
 }
 
@@ -95,7 +95,7 @@ nav{
         }
     }
     &__search-container{
-        width: 435px;
+        width: 32%;
         height: 45px;
         background-color: $color-white;
         display: flex;
@@ -114,7 +114,8 @@ nav{
 .red-square{
     position: absolute;
     background-color: $color-lightred;
-    width: 964px;
+    width: 66%;
     height: 714px;
     top: 0;
+    z-index: 0;
 }

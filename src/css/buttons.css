@@ -1,0 +1,34 @@
+.btn {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 138px;
+  top: 173px;
+  right: 233px;
+  z-index: 4;
+}
+.btn__shop-now {
+  background-color: #E89F71;
+  width: 75%;
+  height: 14%;
+  margin-left: 12%;
+  border: none;
+}
+
+.swiper-button-prev::after, .swiper-button-next::after {
+  color: #FFFFFF;
+  font-size: 15px;
+}
+
+.swiper-button-prev__top-section, .swiper-button-next__top-section {
+  width: 48px;
+  height: 48px;
+  background-color: #E89F71;
+  border-radius: 24px;
+}
+
+@media (max-width: 1440px) {
+  .btn {
+    right: 100px;
+  }
+}/*# sourceMappingURL=buttons.css.map */

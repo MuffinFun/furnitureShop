@@ -6,6 +6,9 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 @import url("/src/css/slider.css");
+@import url("/src/css/variables.css");
+@import url("/src/css/buttons.css");
+@import url("/src/css/text.css");
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -378,7 +381,7 @@ table {
   font-family: GilroyR;
   src: url(../font/gilroy-regular.ttf);
 }
-h1 {
+h1, h2, h3, h4, h5, h6, h7, h8, h9, h10, h11 {
   font-family: GilroyB;
 }
 
@@ -391,7 +394,7 @@ p {
   min-height: 774px;
   max-width: 2866px;
   padding-top: 40px;
-  background-color: #FCF8F3;
+  background-color: #fcf8f2;
 }
 .top-section__nav-container {
   position: fixed;
@@ -432,6 +435,7 @@ nav {
   font-weight: 400;
   font-size: 14px;
   line-height: 150%;
+  outline: none;
 }
 
 .navigate__title-logo h1 {
@@ -439,7 +443,7 @@ nav {
   line-height: 29px;
 }
 .navigate__search-container {
-  width: 435px;
+  width: 32%;
   height: 45px;
   background-color: #FFFFFF;
   display: flex;
@@ -457,7 +461,8 @@ nav {
 .red-square {
   position: absolute;
   background-color: #F9F1E7;
-  width: 964px;
+  width: 66%;
   height: 714px;
   top: 0;
+  z-index: 0;
 }/*# sourceMappingURL=style.css.map */
