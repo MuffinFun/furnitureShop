@@ -5,6 +5,7 @@
 @import url('/src/css/variables.css');
 @import url('/src/css/buttons.css');
 @import url('/src/css/text.css');
+@import url('/src/css/imed-sec.css');
 
 
 @font-face {
@@ -52,6 +53,8 @@ a{
         display: flex;
         justify-content: space-evenly;
         align-items: center;
+        background-color: $notwhitebutwhite2;
+
     }
 }
 

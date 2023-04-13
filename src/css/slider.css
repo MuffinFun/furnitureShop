@@ -1,7 +1,6 @@
 .real-slider {
   position: relative;
   margin-top: 181px;
-  min-height: 774px;
   overflow: hidden;
   z-index: 1;
 }
