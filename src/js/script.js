@@ -12,5 +12,5 @@ new Swiper('.real-slider', {
       },
       autoplay: {
         delay: 3000
-      }
+      },
 });

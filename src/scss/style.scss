@@ -6,20 +6,21 @@
 @import url('/src/css/buttons.css');
 @import url('/src/css/text.css');
 
+
 @font-face {
-    font-family: GilroyB;
-    src: url(../font/gilroy-bold.ttf);
-}
-@font-face {
-    font-family: GilroyH;
+    font-family: GilroyH; //800
     src: url(../font/gilroy-heavy.ttf);
 }
 @font-face {
-    font-family: GilroyM;
+    font-family: GilroyB; //700
+    src: url(../font/gilroy-bold.ttf);
+}
+@font-face {
+    font-family: GilroyM; //600
     src: url(../font/gilroy-medium.ttf);
 }
 @font-face {
-    font-family: GilroyR;
+    font-family: GilroyR; //500
     src: url(../font/gilroy-regular.ttf);
 }
 
@@ -29,6 +30,11 @@ h1, h2, h3, h4, h5, h6, h7, h8, h9, h10, h11{
 
 p{
     font-family: GilroyR;
+}
+a{
+    font-family: GilroyR;
+    text-decoration: none;
+    color: $color-h2-darkgray;
 }
 
 
@@ -58,9 +64,13 @@ nav{
     display: flex;
     justify-content: space-between;
     &__item{
-        p{
+        display: flex;
+        a{
             font-size: 16px;
             line-height: 150%;
+        }
+        &_arrow{
+            margin-left: 12px;
         }
     }
 }

@@ -10,6 +10,19 @@
         width: 75%;
         margin: 0px 60px 16px 60px;
     }
+    &__card-header{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 60%;
+        height: 75%;
+        margin: 24px 0px 24px 24px;
+    }
+    &__card-arrow{
+        margin: 0 28px 30px 0;
+        height: 11px;
+        width: 15px;
+    }
 }
 
 .head{
@@ -18,10 +31,26 @@
         line-height: 120%;
         color: $color-h2-darkgray;
     }
+    &__card-h{
+        font-family: GilroyB;
+        font-size: 28px;
+        line-height: 120%;
+        color: $color-h2-darkgray;
+        &_coast{
+            font-size: 20px;
+            line-height: 150%;
+        }
+    }
 }
 
 .paragraph{
     &__top-sec-left-paragraph{
+        font-size: 20px;
+        line-height: 150%;
+        color: $color-p-lightgray;
+        margin-bottom: 48px;
+    }
+    &__top-sec-card-paragraph{
         font-size: 20px;
         line-height: 150%;
         color: $color-p-lightgray;

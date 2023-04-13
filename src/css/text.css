@@ -7,14 +7,43 @@
   width: 75%;
   margin: 0px 60px 16px 60px;
 }
+.content-box__card-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 60%;
+  height: 75%;
+  margin: 24px 0px 24px 24px;
+}
+.content-box__card-arrow {
+  margin: 0 28px 30px 0;
+  height: 11px;
+  width: 15px;
+}
 
 .head__h2 {
   font-size: 56px;
   line-height: 120%;
   color: #3A3A3A;
 }
+.head__card-h {
+  font-family: GilroyB;
+  font-size: 28px;
+  line-height: 120%;
+  color: #3A3A3A;
+}
+.head__card-h_coast {
+  font-size: 20px;
+  line-height: 150%;
+}
 
 .paragraph__top-sec-left-paragraph {
+  font-size: 20px;
+  line-height: 150%;
+  color: #898989;
+  margin-bottom: 48px;
+}
+.paragraph__top-sec-card-paragraph {
   font-size: 20px;
   line-height: 150%;
   color: #898989;
