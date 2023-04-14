@@ -1,0 +1,36 @@
+@import 'variables';
+
+
+.second-section{
+    min-height: 1200px;
+    &__container{
+        width: 90%;
+        min-height: 1084px;
+        text-align: center;
+        margin: 0 auto;
+        
+    }
+    &__header{
+        font-size: 40px;
+        line-height: 120%;
+        color: $color-h2-darkgray;
+    }
+    &__content-container{
+        height: 100%;
+        width: 100%;
+        display: grid;
+        // grid-template: repeat(23%, 4) / repeat(446px, 2);
+        grid-template-columns:24% 24% 24% 24%;
+        grid-gap: 18px;
+    }
+}
+
+.content-card{
+    &__card{
+        
+    }
+    &__img{
+        width: 100%;
+        object-fit: contain;
+    }
+}

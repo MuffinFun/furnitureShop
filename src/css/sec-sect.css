@@ -1,0 +1,27 @@
+.second-section {
+  min-height: 1200px;
+}
+.second-section__container {
+  width: 90%;
+  min-height: 1084px;
+  text-align: center;
+  margin: 0 auto;
+}
+.second-section__header {
+  font-size: 40px;
+  line-height: 120%;
+  color: #3A3A3A;
+}
+.second-section__content-container {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 24% 24% 24% 24%;
+  grid-gap: 18px;
+}
+
+.content-card__img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}/*# sourceMappingURL=sec-sect.css.map */
