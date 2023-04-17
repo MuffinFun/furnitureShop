@@ -17,6 +17,19 @@
     }
     &__show-more{
         padding: 12px 82px;
+        color: $color-primary;
+        font-size: 16px;
+        line-height: 150%;
+        background-color: $color-white;
+        border: 1px solid $color-primary;
+    }
+    &__add-to-cart{
+        padding: 12px 50px;
+        color: $color-primary;
+        font-size: 16px;
+        line-height: 150%;
+        background-color: $color-white;
+        border: none;
     }
 }
 

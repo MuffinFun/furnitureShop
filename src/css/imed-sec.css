@@ -1,6 +1,6 @@
 @import url("/src/css/style.css");
 .intermediate-sec {
-  min-height: 340px;
+  min-height: 180px;
 }
 .intermediate-sec__container {
   width: 80%;

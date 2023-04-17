@@ -7,6 +7,7 @@
 @import url('/src/css/text.css');
 @import url('/src/css/imed-sec.css');
 @import url('/src/css/sec-sect.css');
+@import url('/src/css/sec2-text.css');
 
 
 @font-face {
@@ -29,6 +30,10 @@
 h1, h2, h3, h4, h5, h6, h7, h8, h9, h10, h11{
     font-family: GilroyB;
 }
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+}
 
 p{
     font-family: GilroyR;
@@ -38,12 +43,14 @@ a{
     text-decoration: none;
     color: $color-h2-darkgray;
 }
+button{
+    font-family: GilroyM;
+}
 
 
 .top-section{
     position: relative;
     min-height: 774px;
-    max-width: 2866px;
     padding-top: 40px;
     background-color: $notwhitebutwhite;
     &__nav-container{
@@ -54,6 +61,8 @@ a{
         display: flex;
         justify-content: space-evenly;
         align-items: center;
+        right: 0;
+        left: 0;
 
     }
 }

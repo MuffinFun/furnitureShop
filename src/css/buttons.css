@@ -16,6 +16,19 @@
 }
 .btn__show-more {
   padding: 12px 82px;
+  color: #E89F71;
+  font-size: 16px;
+  line-height: 150%;
+  background-color: #FFFFFF;
+  border: 1px solid #E89F71;
+}
+.btn__add-to-cart {
+  padding: 12px 50px;
+  color: #E89F71;
+  font-size: 16px;
+  line-height: 150%;
+  background-color: #FFFFFF;
+  border: none;
 }
 
 .swiper-button-prev::after, .swiper-button-next::after {

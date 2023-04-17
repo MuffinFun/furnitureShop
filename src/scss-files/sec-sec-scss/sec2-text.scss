@@ -1,0 +1,42 @@
+@import 'variables';
+
+.sec2-card-text{
+    background-color: $color-card-backg;
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 30px;
+    &__head{
+        text-align: left;
+        &_top{
+            font-family: GilroyM;
+            color: $color-grey2;
+            font-size: 24px;
+            line-height: 120%;
+        }
+        &_bot{
+            font-family: GilroyR;
+            color: $color-p-lightgray;
+            font-size: 16px;
+            line-height: 150%;
+        }
+    }
+    &__coast{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        &_left{
+            font-family: GilroyM;
+            color: $color-h2-darkgray;
+            font-size: 20px;
+            line-height: 150%;
+            margin-right: 16px;
+        }
+        &_right{
+            font-family: GilroyR;
+            color: $color-coast-line-through;
+            text-decoration: line-through;
+            font-size: 16px;
+            line-height: 150%;
+        }
+    }
+}

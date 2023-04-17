@@ -1,0 +1,40 @@
+.sec2-card-text {
+  background-color: #F4F5F7;
+  padding-left: 16px;
+  padding-top: 16px;
+  padding-bottom: 30px;
+}
+.sec2-card-text__head {
+  text-align: left;
+}
+.sec2-card-text__head_top {
+  font-family: GilroyM;
+  color: #616161;
+  font-size: 24px;
+  line-height: 120%;
+}
+.sec2-card-text__head_bot {
+  font-family: GilroyR;
+  color: #898989;
+  font-size: 16px;
+  line-height: 150%;
+}
+.sec2-card-text__coast {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.sec2-card-text__coast_left {
+  font-family: GilroyM;
+  color: #3A3A3A;
+  font-size: 20px;
+  line-height: 150%;
+  margin-right: 16px;
+}
+.sec2-card-text__coast_right {
+  font-family: GilroyR;
+  color: #B0B0B0;
+  text-decoration: line-through;
+  font-size: 16px;
+  line-height: 150%;
+}/*# sourceMappingURL=sec2-text.css.map */

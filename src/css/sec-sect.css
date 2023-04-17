@@ -11,6 +11,7 @@
   font-size: 40px;
   line-height: 120%;
   color: #3A3A3A;
+  margin-bottom: 32px;
 }
 .second-section__content-container {
   height: 100%;
@@ -18,10 +19,76 @@
   display: grid;
   grid-template-columns: 24% 24% 24% 24%;
   grid-gap: 18px;
+  margin-bottom: 32px;
 }
 
+.content-card__card {
+  position: relative;
+  background-color: #F4F5F7;
+  width: 92%;
+}
 .content-card__img {
   width: 100%;
   -o-object-fit: contain;
      object-fit: contain;
+}
+.content-card__mark {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+  background-color: #E97171;
+  text-align: center;
+}
+.content-card__mark_new {
+  background-color: #2EC1AC;
+}
+.content-card__mark-text {
+  margin-top: 12px;
+  color: #FFFFFF;
+  font-family: GilroyR;
+  font-size: 16px;
+  line-height: 150%;
+}
+.content-card__choosen-card {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: #3A3A3A;
+  opacity: 0.72;
+}
+
+.choose-card {
+  width: 70%;
+  height: 96px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  left: 46px;
+  top: 175px;
+}
+.choose-card__actions {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.choose-card__actions img {
+  margin-right: -25px;
+  margin-left: 16px;
+}
+.choose-card__text {
+  font-family: GilroyM;
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 150%;
+}
+.choose-card__text:last-child {
+  margin-right: 16px;
 }/*# sourceMappingURL=sec-sect.css.map */
