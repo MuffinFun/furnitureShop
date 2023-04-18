@@ -1,0 +1,31 @@
+@import 'second-variables';
+
+.second-swiper{
+    position: relative;
+    margin: 0;
+    width: 65%;
+    height: 582px;
+    &__slide{
+        position: relative;
+        height: 486px;
+        transition: height .15s linear;
+    }
+    
+    &__img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.second-pagination{
+    position: absolute;
+    width: 200px !important;
+    bottom: 73px !important;
+    left: 1032px !important;
+}
+
+.second-swiper__active-slide{
+    width: 404px;
+    height: 582px;
+}
+

@@ -8,6 +8,8 @@
 @import url('/src/css/imed-sec.css');
 @import url('/src/css/sec-sect.css');
 @import url('/src/css/sec2-text.css');
+@import url('/src/css/third-sect.css');
+@import url('/src/css/sec-swiper.css');
 
 
 @font-face {
@@ -27,12 +29,13 @@
     src: url(../font/gilroy-regular.ttf);
 }
 
-h1, h2, h3, h4, h5, h6, h7, h8, h9, h10, h11{
+h1, h2, h3, h4, h5, h6{
     font-family: GilroyB;
 }
 body{
     max-width: 1440px;
     margin: 0 auto;
+    // overflow: hidden;
 }
 
 p{

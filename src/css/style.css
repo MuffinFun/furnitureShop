@@ -12,6 +12,8 @@
 @import url("/src/css/imed-sec.css");
 @import url("/src/css/sec-sect.css");
 @import url("/src/css/sec2-text.css");
+@import url("/src/css/third-sect.css");
+@import url("/src/css/sec-swiper.css");
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -384,7 +386,7 @@ table {
   font-family: GilroyR;
   src: url(../font/gilroy-regular.ttf);
 }
-h1, h2, h3, h4, h5, h6, h7, h8, h9, h10, h11 {
+h1, h2, h3, h4, h5, h6 {
   font-family: GilroyB;
 }
 

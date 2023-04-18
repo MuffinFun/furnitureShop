@@ -1,0 +1,65 @@
+@import 'second-variables';
+
+.third-section{
+    position: relative;
+    width: 100%;
+    max-height: 670px;
+    background-color: $color-lightred;
+    padding: 44px 0px 44px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &__left-wrapper{
+        text-align: left;
+        width: 26%;
+    }
+    &__header{
+        color: $color-h2-darkgray;
+        font-size: 40px;
+        line-height: 120%;
+        margin-bottom: 8px;
+    }
+    &__text{
+        color: $color-grey2;
+        font-size: 16px;
+        line-height: 150%;
+        margin-bottom: 24px;
+    }
+}
+
+.cards{
+    position: absolute;
+    z-index: 10;
+    bottom: 24px;
+    left: 24px;
+    display: flex;
+    align-items: flex-end;
+    &__content{
+        background-color: $color-white2;
+        padding: 30px 32px;
+        h2{
+            font-family: GilroyM;
+            color: $color-h2-darkgray;
+            font-size: 28px;
+            line-height: 120%;
+        }
+    }
+    &__top-text{
+        display: flex;
+        align-items: center;
+        margin-bottom: 8px;
+        justify-content: space-between;
+        padding-right: 18px;
+        p{
+            font-size: 16px;
+            line-height: 150%;
+            color: $color-grey2;
+        }
+    }
+    &__line{
+        width: 27px;
+        height: 0px;
+        border: 1px solid $color-grey2;
+    }
+    
+}
