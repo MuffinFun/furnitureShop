@@ -12,6 +12,7 @@
 @import url('/src/css/sec-swiper.css');
 @import url('/src/css/third-swiper-section.css');
 @import url('/src/css/third-swip.css');
+@import url('/src/css/five-section.css');
 
 
 @font-face {
@@ -55,7 +56,7 @@ button{
 
 .top-section{
     position: relative;
-    min-height: 774px;
+    min-height: 730px;
     padding-top: 40px;
     background-color: $notwhitebutwhite;
     &__nav-container{

@@ -43,6 +43,9 @@ const swiper2 = new Swiper('.third-swiper',{
     nextEl: '.third-swiper__button-next',
     prevEl: '.third-swiper__button-prev',
   },
+  autoplay: {
+    delay: 3000
+  },
   pagination: {
     el: '.third-swiper__pagination',
     type: 'bullets',
