@@ -32,3 +32,19 @@ const swiper1 = new Swiper('.second-swiper',{
       type: 'bullets',
     },
 });
+
+const swiper2 = new Swiper('.third-swiper',{
+  slidesPerView: 3,
+  slidesPerGroup: 1,
+  spaceBetween: 32,
+  loop: true,
+  slideNextClass: 'next-slide',
+  navigation: {
+    nextEl: '.third-swiper__button-next',
+    prevEl: '.third-swiper__button-prev',
+  },
+  pagination: {
+    el: '.third-swiper__pagination',
+    type: 'bullets',
+  },
+});

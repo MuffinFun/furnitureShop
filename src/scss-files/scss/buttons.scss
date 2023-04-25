@@ -62,7 +62,6 @@
     border-radius: 24px;
     &__top-section{
         background-color: $color-primary;
-       
     }
 }
 
@@ -82,6 +81,30 @@
     box-shadow: 0px 4px 14px 1px rgba(0, 0, 0, 0.16);
     right: 55px;
     top: 311px;
+    &::after{
+        color: $color-primary;
+    }
+}
+
+.third-swiper__button-next{
+    position: absolute;
+    z-index: 10;
+    background-color: $color-white;
+    box-shadow: 0px 4px 14px 1px rgba(0, 0, 0, 0.16);
+    top: 320px;
+    right: 0px;
+    &::after{
+        color: $color-primary;
+    }
+}
+.third-swiper__button-prev{
+    position: absolute;
+    z-index: 10;
+    background-color: $color-white;
+    box-shadow: 0px 4px 14px 1px rgba(0, 0, 0, 0.16);
+    top: 320px;
+    left: 0px;
+    border-radius: 24px;
     &::after{
         color: $color-primary;
     }

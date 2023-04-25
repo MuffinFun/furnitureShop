@@ -1,0 +1,40 @@
+.fourth-section {
+  min-height: 580px;
+  padding-top: 44px;
+  padding-bottom: 44px;
+}
+.fourth-section__container {
+  position: relative;
+  width: 1285px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+.fourth-section__title {
+  text-align: center;
+  font-size: 40px;
+  line-height: 120%;
+  color: #3A3A3A;
+}
+.fourth-section__text-container {
+  margin: 13px 16px;
+  text-align: left;
+}
+.fourth-section__text-container_top {
+  font-family: GilroyM;
+  font-size: 24px;
+  line-height: 120%;
+  color: #3A3A3A;
+  margin-bottom: 8px;
+}
+.fourth-section__text-container_bot {
+  font-family: GilroyR;
+  font-size: 14px;
+  line-height: 150%;
+  color: #898989;
+}
+
+@media (max-width: 1440px) {
+  .fourth-section__container {
+    width: 90%;
+  }
+}/*# sourceMappingURL=third-swiper-section.css.map */
