@@ -48,6 +48,18 @@
 .btn__content-next img {
   width: 24px;
 }
+.btn__foot-telegram {
+  border: none;
+  padding: 0;
+  background-color: #E89F71;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn__foot-telegram img {
+  width: 24px;
+  margin: 14px 14px;
+}
 
 .swiper-button-prev::after, .swiper-button-next::after {
   color: #FFFFFF;

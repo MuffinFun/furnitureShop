@@ -17,6 +17,7 @@
 @import url("/src/css/third-swiper-section.css");
 @import url("/src/css/third-swip.css");
 @import url("/src/css/five-section.css");
+@import url("/src/css/footer.css");
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -461,7 +462,7 @@ nav {
   color: #616161;
   width: 90%;
   border: none;
-  font-family: "GilroyR";
+  font-family: GilroyR;
   font-weight: 400;
   font-size: 14px;
   line-height: 150%;

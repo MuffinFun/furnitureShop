@@ -49,6 +49,18 @@
             width: 24px;
         }
     }
+    &__foot-telegram{
+        border: none;
+        padding: 0;
+        background-color: $color-primary;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 24px;
+            margin: 14px 14px;
+        }
+    }
 }
 
 .swiper-button-prev::after, .swiper-button-next::after{

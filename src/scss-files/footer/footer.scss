@@ -1,0 +1,53 @@
+@import 'variables';
+
+.foot{
+    min-height: 340px;
+    &__container{
+        width: 85%;
+        margin: 50px auto;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.foot-content{
+    &__header{
+        text-align: left;
+        font-size: 24px;
+        line-height: 29px;
+        color: $color-black;
+        margin-bottom: 16px;
+    }
+    &__parag{
+        font-size: 16px;
+        line-height: 150%;
+        color: $color-grey2;
+        margin-bottom: 16px;
+    }
+    &__with-icon{
+        display: flex;
+        align-items: center;
+        margin-bottom: 16px;
+        p{
+            margin-bottom: 0;
+        }
+        img{
+            margin-right: 10px;
+        }
+    }
+    &__updated{
+        display: flex;
+        input{
+            margin-right: 4px;
+            color: $color-grey3;
+            background-color: $color-foot-input;
+            padding: 0 0 0 12px;
+            width: 242px;
+            border: none;
+            font-family: GilroyR;
+            font-size: 16px;
+            line-height: 150%;
+            outline: none;
+        }
+    }
+}
