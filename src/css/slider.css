@@ -5,11 +5,7 @@
   z-index: 1;
 }
 .real-slider__wrapper {
-  width: 100%;
   height: 553px;
-}
-.real-slider__wrapper:first-child {
-  background-color: aqua;
 }
 .real-slider__slide {
   width: 100% !important;

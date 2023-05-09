@@ -6,11 +6,7 @@
     overflow: hidden;
     z-index: 1;
     &__wrapper{
-        width: 100%;
         height: 553px;
-    }
-    &__wrapper:first-child{
-        background-color: aqua;
     }
     &__slide{
         width: 100% !important;

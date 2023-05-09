@@ -415,6 +415,7 @@ button {
 
 .top-section {
   position: relative;
+  width: 100%;
   min-height: 730px;
   padding-top: 40px;
   background-color: #fcf8f2;
