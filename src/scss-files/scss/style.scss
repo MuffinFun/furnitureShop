@@ -1,153 +1,155 @@
 @import "normalize1";
 @import "resets";
-@import 'variables';
-@import url('/src/css/slider.css');
-@import url('/src/css/variables.css');
-@import url('/src/css/buttons.css');
-@import url('/src/css/text.css');
-@import url('/src/css/imed-sec.css');
-@import url('/src/css/sec-sect.css');
-@import url('/src/css/sec2-text.css');
-@import url('/src/css/third-sect.css');
-@import url('/src/css/sec-swiper.css');
-@import url('/src/css/third-swiper-section.css');
-@import url('/src/css/third-swip.css');
-@import url('/src/css/five-section.css');
-@import url('/src/css/footer.css');
-
+@import "variables";
+@import "slider.css";
+@import "variables.css";
+@import "buttons.css";
+@import "text.css";
+@import "imed-sec.css";
+@import "sec-sect.css";
+@import "sec2-text.css";
+@import "third-sect.css";
+@import "sec-swiper.css";
+@import "third-swiper-section.css";
+@import "third-swip.css";
+@import "five-section.css";
+@import "footer.css";
 
 @font-face {
-    font-family: GilroyH; //800
-    src: url(../font/gilroy-heavy.ttf);
+  font-family: GilroyH; //800
+  src: url(../font/gilroy-heavy.ttf);
 }
 @font-face {
-    font-family: GilroyB; //700
-    src: url(../font/gilroy-bold.ttf);
+  font-family: GilroyB; //700
+  src: url(../font/gilroy-bold.ttf);
 }
 @font-face {
-    font-family: GilroyM; //600
-    src: url(../font/gilroy-medium.ttf);
+  font-family: GilroyM; //600
+  src: url(../font/gilroy-medium.ttf);
 }
 @font-face {
-    font-family: GilroyR; //500
-    src: url(../font/gilroy-regular.ttf);
+  font-family: GilroyR; //500
+  src: url(../font/gilroy-regular.ttf);
 }
 
-h1, h2, h3, h4, h5, h6{
-    font-family: GilroyB;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: GilroyB;
 }
-body{
-    max-width: 1440px;
-    margin: 0 auto;
-    // overflow: hidden;
-}
-
-p{
-    font-family: GilroyR;
-}
-a{
-    font-family: GilroyR;
-    text-decoration: none;
-    color: $color-h2-darkgray;
-}
-button{
-    font-family: GilroyM;
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  // overflow: hidden;
 }
 
+p {
+  font-family: GilroyR;
+}
+a {
+  font-family: GilroyR;
+  text-decoration: none;
+  color: $color-h2-darkgray;
+}
+button {
+  font-family: GilroyM;
+}
 
-.top-section{
-    position: relative;
+.top-section {
+  position: relative;
+  width: 100%;
+  min-height: 730px;
+  padding-top: 40px;
+  background-color: $notwhitebutwhite;
+  &__nav-container {
+    position: fixed;
+    z-index: 3;
     width: 100%;
-    min-height: 730px;
-    padding-top: 40px;
-    background-color: $notwhitebutwhite;
-    &__nav-container{
-        position: fixed;
-        z-index: 3;
-        width: 100%;
-        height: 45px;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        right: 0;
-        left: 0;
+    height: 45px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    right: 0;
+    left: 0;
+  }
+}
 
+nav {
+  margin: 0 auto;
+}
+
+.nav-menu {
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+  &__item {
+    display: flex;
+    a {
+      font-size: 16px;
+      line-height: 150%;
     }
+    &_arrow {
+      margin-left: 12px;
+    }
+  }
 }
 
-nav{
-    margin: 0 auto;
+.icons {
+  &__icon {
+    width: 24px;
+  }
 }
 
-.nav-menu{
-    width: 25%;
+.search {
+  &__lupa {
+    margin-right: 15px;
+  }
+  &__input {
+    color: $color-grey2;
+    width: 90%;
+    border: none;
+    font-family: GilroyR;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    outline: none;
+  }
+}
+
+.navigate {
+  &__title-logo {
+    h1 {
+      font-size: 24px;
+      line-height: 29px;
+    }
+  }
+  &__search-container {
+    width: 32%;
+    height: 45px;
+    background-color: $color-white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 15px;
+  }
+  &__icons-container {
+    width: 13%;
     display: flex;
     justify-content: space-between;
-    &__item{
-        display: flex;
-        a{
-            font-size: 16px;
-            line-height: 150%;
-        }
-        &_arrow{
-            margin-left: 12px;
-        }
-    }
+    align-items: center;
+    background-color: $notwhitebutwhite2;
+    border-radius: 50px;
+  }
 }
 
-.icons{
-    &__icon{
-        width: 24px;
-    }
-}
-
-.search{
-    &__lupa{
-        margin-right: 15px;
-    }
-    &__input{
-        color: $color-grey2;
-        width: 90%;
-        border: none;
-        font-family: GilroyR;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 150%;
-        outline: none;
-    }
-}
-
-.navigate{
-    &__title-logo{
-        h1{
-            font-size: 24px;
-            line-height: 29px;
-        }
-    }
-    &__search-container{
-        width: 32%;
-        height: 45px;
-        background-color: $color-white;
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
-        padding-left: 15px;
-    }
-    &__icons-container{
-        width: 13%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        background-color: $notwhitebutwhite2;
-        border-radius: 50px;
-    }
-}
-
-.red-square{
-    position: absolute;
-    background-color: $color-lightred;
-    width: 66%;
-    height: 714px;
-    top: 0;
-    z-index: 0;
+.red-square {
+  position: absolute;
+  background-color: $color-lightred;
+  width: 66%;
+  height: 714px;
+  top: 0;
+  z-index: 0;
 }

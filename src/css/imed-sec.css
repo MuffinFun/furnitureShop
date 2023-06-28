@@ -1,4 +1,4 @@
-@import url("/src/css/style.css");
+@import "style.css";
 .intermediate-sec {
   min-height: 180px;
 }

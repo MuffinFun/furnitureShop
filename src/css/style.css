@@ -5,19 +5,19 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-@import url("/src/css/slider.css");
-@import url("/src/css/variables.css");
-@import url("/src/css/buttons.css");
-@import url("/src/css/text.css");
-@import url("/src/css/imed-sec.css");
-@import url("/src/css/sec-sect.css");
-@import url("/src/css/sec2-text.css");
-@import url("/src/css/third-sect.css");
-@import url("/src/css/sec-swiper.css");
-@import url("/src/css/third-swiper-section.css");
-@import url("/src/css/third-swip.css");
-@import url("/src/css/five-section.css");
-@import url("/src/css/footer.css");
+@import "slider.css";
+@import "variables.css";
+@import "buttons.css";
+@import "text.css";
+@import "imed-sec.css";
+@import "sec-sect.css";
+@import "sec2-text.css";
+@import "third-sect.css";
+@import "sec-swiper.css";
+@import "third-swiper-section.css";
+@import "third-swip.css";
+@import "five-section.css";
+@import "footer.css";
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -390,7 +390,12 @@ table {
   font-family: GilroyR;
   src: url(../font/gilroy-regular.ttf);
 }
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: GilroyB;
 }
 
