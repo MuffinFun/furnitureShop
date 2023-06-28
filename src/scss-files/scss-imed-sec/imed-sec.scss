@@ -1,35 +1,35 @@
-@import url('/src/css/style.css');
-@import 'variables';
+@import "style.css";
+@import "variables";
 
-.intermediate-sec{
-    min-height: 180px;
-    &__container{
-        width: 80%;
-        margin: 88px auto;
-    }
+.intermediate-sec {
+  min-height: 180px;
+  &__container {
+    width: 80%;
+    margin: 88px auto;
+  }
 }
 
-.features{
+.features {
+  display: flex;
+  justify-content: space-between;
+  &__content {
     display: flex;
-    justify-content: space-between;
-    &__content{
-        display: flex;
+  }
+  &__img {
+    width: 40px;
+    margin-right: 26px;
+  }
+  &__text {
+    p {
+      color: $color-p-lightgray;
+      font-size: 16px;
+      line-height: 150%;
     }
-    &__img{
-        width: 40px;
-        margin-right: 26px;
-    }
-    &__text{
-        p{
-            color: $color-p-lightgray;
-            font-size: 16px;
-            line-height: 150%;
-        }
-    }
-    &__head{
-        font-family: GilroyB;
-        color: $color-h2-darkgray;
-        font-size: 18px;
-        line-height: 150%;
-    }
+  }
+  &__head {
+    font-family: GilroyB;
+    color: $color-h2-darkgray;
+    font-size: 18px;
+    line-height: 150%;
+  }
 }

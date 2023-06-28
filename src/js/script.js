@@ -13,6 +13,16 @@ new Swiper('.real-slider', {
       autoplay: {
         delay: 3000
       },
+      breakpoints: {
+        1232: {
+          slidesPerView: 1.4,
+          spaceBetween: 32,
+        },
+        1024: {
+          slidesPerView: 1.1,
+          spaceBetween: 25,
+        },
+      },
 });
 
 const swiper1 = new Swiper('.second-swiper',{
