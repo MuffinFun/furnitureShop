@@ -1,63 +1,25 @@
-new Swiper('.real-slider', {
-    slidesPerView: 1.4,
-    spaceBetween: 32,
-    loop: true,
-    navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-    },
-    pagination: {
-        el: '.swiper-pagination',
-        type: 'bullets',
-      },
-      autoplay: {
-        delay: 3000
-      },
-      breakpoints: {
-        1232: {
-          slidesPerView: 1.4,
-          spaceBetween: 32,
-        },
-        1024: {
-          slidesPerView: 1.1,
-          spaceBetween: 25,
-        },
-      },
+"use strict";
+
+const topSect = document.querySelector(".top-section");
+const navMenu = document.querySelector(".navigate");
+
+document.querySelector(".nav-menu").addEventListener("click", function (e) {
+  e.preventDefault();
+  if (e.target.classList.contains("nav-menu_link")) {
+    const destination = e.target.getAttribute("href");
+    document.querySelector(destination).scrollIntoView({ behavior: "smooth" });
+  }
 });
 
-const swiper1 = new Swiper('.second-swiper',{
-    slidesPerView: 2.4,
-    slidesPerGroup: 1,
-    spaceBetween: 24,
-    loop: true,
-    slideActiveClass: 'second-swiper__active-slide',
-    navigation: {
-      nextEl: '.sec-swip-button-next',
-    },
-     autoplay: {
-      delay: 3000
-    },
-    pagination: {
-      el: '.second-pagination',
-      type: 'bullets',
-    },
-});
+function addBack(entr) {
+  if (entr[0].intersectionRatio <= 0.9 && entr[0].isIntersecting) {
+    navMenu.classList.add("nav-menu__item_set-transpr-back");
+  } else {
+    navMenu.classList.remove("nav-menu__item_set-transpr-back");
+  }
+}
 
-const swiper2 = new Swiper('.third-swiper',{
-  slidesPerView: 3,
-  slidesPerGroup: 1,
-  spaceBetween: 32,
-  loop: true,
-  slideNextClass: 'next-slide',
-  navigation: {
-    nextEl: '.third-swiper__button-next',
-    prevEl: '.third-swiper__button-prev',
-  },
-  autoplay: {
-    delay: 3000
-  },
-  pagination: {
-    el: '.third-swiper__pagination',
-    type: 'bullets',
-  },
+const topSectObserver = new IntersectionObserver(addBack, {
+  threshold: [0.9, 0],
 });
+topSectObserver.observe(topSect);
